@@ -128,7 +128,8 @@ header .navbar ul li a.active::before {
 }
 
 .home .homecontent {
-  flex: 0 0 100% max-width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -425,7 +426,7 @@ header .navbar ul li a.active::before {
   background-color: #fff;
   padding: 30px;
   flex: 0 0 calc(33.33% - 20px);
-  max-width: : 0 0 calc(33.33% - 20px);
+  max-width: 0 0 calc(33.33% - 20px);
   margin-bottom: 30px;
   border-radius: 1px solid #eeeeee;
   box-shadow: 4px 4px 7px #666;
@@ -569,7 +570,7 @@ header .navbar ul li a.active::before {
   background-color: #F5F7F9;
   padding: 30px;
   flex: 0 0 calc(80% - 20px);
-  max-width: : 0 0 calc(70 - 20px);
+  max-width:  0 0 calc(70 - 20px);
   margin-bottom: 30px;
   border-radius: 1px solid #eeeeee;
   position: relative;
