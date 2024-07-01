@@ -1,4 +1,94 @@
 var modalInfo = {
+  20241:{
+    title: "M.U.C- Multipurpose universal chasis",
+    members:"Anirudh Agarwal, Gnana sai Pendyala, Akshay Prabhu, Aman Agrawal",
+    info:"The Multipurpose Universal Chassis (M.U.C.) is an autonomous ground vehicle, built for industrial applications. The current model supports a payload of 50Kg and can be further modified for different payload capacities too. M.U.C. features autonomous navigation using SLAM and also offers a manipulation system for picking and placing of objects. M.U.C. is designed to automate warehouses and minimize overall manual monitoring and human intervention.",
+    link:"#",
+
+  },
+
+  20242:{
+    title: "Smart Helmet",
+    members:"Ahona Rakshit",
+    info:"Smart Helmet is an IoT-based technologically advanced headgear designed to enhance safety and communication for miners operating in underground coal mines. Coal mining is a hazardous profession, with risks like cave-ins, gas leaks, and exposure to harmful substances. The Smart Helmet allows data acquisition of the wearer's vitals, environmental factors such as surrounding gas levels, a SOS button as well as location-tracking, all of which communicate with the above ground personnel through a unique networking system using long-range communication.",
+    link:"#",
+  },
+
+  20243:{
+
+  },
+
+  20244:{
+    title: "Gait analysis",
+    members:"POONGUZHALI SIVAKUMAR",
+    info:"Introducing a real-time data acquisition tool equipped with machine learning (ML) algorithms tailored for cerebral palsy (CP) patients. This innovative solution seamlessly integrates with wearable sensors to capture gait parameters in real-time. ML algorithms analyze the data to identify gait abnormalities and provide personalized suggestions for improving coordination during walking. By offering instantaneous feedback and actionable insights, this tool empowers CP patients and healthcare professionals to optimize gait rehabilitation strategies, leading to enhanced mobility and functional outcomes.",
+    link:"#",
+  },
+
+  20245:{
+    title:"Pipe inspection bot",
+    members:"Harshitha Ashokh",
+    info:"The primary objective of this project is to develop a state-of-the-art industrial pipe inspection bot, engineered to visually inspect the interior of pipes and promptly identify any structural anomalies such as cracks. This advanced bot is equipped with sophisticated imaging technology capable of capturing high-resolution images and providing real-time video feeds.",
+    link:"#",
+
+  },
+
+  20246:{
+    title:"Line follower Bot",
+    members:"",
+    info:"The line follower robot is an automated vehicle that follows a visual black line or path on the surface. This visual line is a path on which the line follower robot moves. It uses a black line on a white surface, or you can also adjust it as a white line on a black surface as per your need.",
+    link:"#",
+  },
+
+  20247:{
+    title:"Cosmo-Clench",
+    members:"",
+    info:"A gripper bot going around an obstacle course, and doing simple tasks and overcome the obstacle course",
+    link:"#",
+  },
+
+  20248:{
+    title:"Micro-Mouse",
+    members:"",
+    info:"Micro Mouse is a small robotic vehicle designed to navigate and solve a maze autonomously. The robot is programmed using microcontrollers like Arduino and equipped with sensors that help it detect and map its environment. The objective of the micro mouse competition is to find the shortest path from the starting point to the center of the maze.",
+    link:"#",
+  },
+
+  20251:{
+    title: "Touchless Pad",
+    members:"",
+    info:"Our project involves using hand gestures to control the graphical user functions of a PC. Input taken from the camera is processed to track the hands and produces a virtual mouse for use. Various hand gestures are mapped for mouse and keyboard shortcuts. Another feature include opening some set of applications with a single character virtually written on a predefined window.",
+    link:"#",
+  },
+
+  20252:{
+    title: "Soldering Station",
+    members:"",
+    info:"A soldering station is a multipurpose power soldering device designed for electronic components. Soldering sometimes it becomes a tedious task to solder some parts that are small and can cause some disturbance in the circuit if not soidered property. Therefore, to minimize human error and increase the accuracy of each solder, the soldering iron is attached to a manipulator, which the user can control. Accuracy up to 5 micrometer can be achieved.",
+    link:"#",
+  },
+
+  20253:{
+    title: "Small Bot",
+    members:"",
+    info:"The Small Bot is a tiny mobile robot that has a camera fitted on top of it to review the surroundings. It will be remotely controlled, and the camera feed will be seen on a monitor.The small bot can be used in rescue operations after a natural disaster to find the injured victims.",
+    link:"#",
+  },
+
+  20254:{
+    title: "Autonomous Wall Painting Bot",
+    members:"",
+    info:"Autonomous Wall painting bot is a robot that will be able to map the room avoid any obstacles and paint the wall. We can also make pattens and designs with multiple brush and spray-painting attachments made for the bot. This bot eliminates the cost of labour and can paint seamlessly with speed and accuracy.",
+    link:"#",
+  },
+
+  20255:{
+    title: "Volume Finder Bot",
+    members:"",
+    info:"The vision behind the 3D volume measurement is to provide a cheap and efficient solution to finding the volume and volumetric weight of objects, especially packages used in the shipping business. This project employs the use of cameras to find the dimensions of the object placed anywhere inside the pre-defined perimeter and computes its volume.",
+    link:"#",
+  },
+
   20211:{
     title: "Automated Luggage Handling System (ALS)",
     members: "Rishabh Dugar",
