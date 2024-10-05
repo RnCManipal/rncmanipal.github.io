@@ -144,24 +144,6 @@
 }
 
 
-/* Scroll to Top Button */
-.to_top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #ff6f61;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    font-size: 1.5rem;
-    display: none;
-    z-index: 1000;
-}
-
-.to_top:hover {
-    background-color: #e65b50;
-}
-
 /* Responsive Styles */
 @media (max-width: 768px) {
     .col-8, .col-4 {
