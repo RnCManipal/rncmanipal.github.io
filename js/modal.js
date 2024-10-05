@@ -54,6 +54,41 @@ var modalInfo = {
     link:"#",
   },
 
+  20251:{
+    title: "Touchless Pad",
+    members:"",
+    info:"Our project involves using hand gestures to control the graphical user functions of a PC. Input taken from the camera is processed to track the hands and produces a virtual mouse for use. Various hand gestures are mapped for mouse and keyboard shortcuts. Another feature include opening some set of applications with a single character virtually written on a predefined window.",
+    link:"#",
+  },
+
+  20252:{
+    title: "Soldering Station",
+    members:"",
+    info:"A soldering station is a multipurpose power soldering device designed for electronic components. Soldering sometimes it becomes a tedious task to solder some parts that are small and can cause some disturbance in the circuit if not soidered property. Therefore, to minimize human error and increase the accuracy of each solder, the soldering iron is attached to a manipulator, which the user can control. Accuracy up to 5 micrometer can be achieved.",
+    link:"#",
+  },
+
+  20253:{
+    title: "Small Bot",
+    members:"",
+    info:"The Small Bot is a tiny mobile robot that has a camera fitted on top of it to review the surroundings. It will be remotely controlled, and the camera feed will be seen on a monitor.The small bot can be used in rescue operations after a natural disaster to find the injured victims.",
+    link:"#",
+  },
+
+  20254:{
+    title: "Autonomous Wall Painting Bot",
+    members:"",
+    info:"Autonomous Wall painting bot is a robot that will be able to map the room avoid any obstacles and paint the wall. We can also make pattens and designs with multiple brush and spray-painting attachments made for the bot. This bot eliminates the cost of labour and can paint seamlessly with speed and accuracy.",
+    link:"#",
+  },
+
+  20255:{
+    title: "Volume Finder Bot",
+    members:"",
+    info:"The vision behind the 3D volume measurement is to provide a cheap and efficient solution to finding the volume and volumetric weight of objects, especially packages used in the shipping business. This project employs the use of cameras to find the dimensions of the object placed anywhere inside the pre-defined perimeter and computes its volume.",
+    link:"#",
+  },
+
   20211:{
     title: "Automated Luggage Handling System (ALS)",
     members: "Rishabh Dugar",
