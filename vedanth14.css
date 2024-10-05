@@ -1,0 +1,211 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-8 {
+    flex: 0 0 66.6666%;
+    max-width: 65%;
+}
+
+.col-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+/* Hero Section */
+#home {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+#home .btn-primary {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+#home .btn-primary:hover {
+    background-color: #e65b50;
+}
+
+/* Tech Showdown Section */
+.tech-showdown {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.tech-showdown h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+}
+
+.tech-showdown .btn-primary {
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.tech-showdown .btn-primary:hover {
+    background-color: #e65b50;
+}
+
+.accordian{
+    margin-bottom: 70px;
+}
+
+.accordion-button {
+    background-color: #000;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    border: #ff6f61;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e65b50;
+}
+
+.accordion-body {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Event Details Box */
+.event-details-box, .highlight-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-details-box h3, .highlight-box h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.event-details ul, .highlight-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.event-details ul li, .highlight-box ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+}
+
+.event-details ul li i, .highlight-box ul li i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #ff6f61;
+}
+
+
+/* Scroll to Top Button */
+.to_top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: none;
+    z-index: 1000;
+}
+
+.to_top:hover {
+    background-color: #e65b50;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .col-8, .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .event-details-box, .highlight-box {
+        margin-bottom: 15px;
+    }
+
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+    }
+}
+
+.register-btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0; /* Space above and below the button */
+}
+
+.register-btn-container .btn {
+    background-color: #000;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+    border: none;
+    text-align: left;
+    border: #ff6f61;
+    border-radius: 10px;
+    border-width: 2px;/* Optional max width for larger screens */
+}
+
